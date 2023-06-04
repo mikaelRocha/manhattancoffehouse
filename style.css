@@ -13,6 +13,18 @@
     --img-parallax-04   : url("./assets/parallax-imagem4.png");
     --up-arrow          : url("./assets/seta-para-cima.png");
 
+    --pc-fiftee        : 15%;
+    --pc-thirty-five   : 35%;
+    --pc-forty-five    : 45%;
+    --pc-one-hundred   : 100%;
+
+    --px-one-hundred   : 100px;
+
+    --vh-one-hundred   : 100vh;
+    --px-zero-twenty   : 0 20px;
+    --px-1024          : 1024px;
+
+    --zero             : 0;
 }
 .fixed-pos{
     position: fixed;
