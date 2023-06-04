@@ -1,10 +1,18 @@
 :root{
-    --beige: #c4a47c;
-    --white: #ffffff;
-    --black: #000000;
-    --brown: #604829;
-    --grey : #ACACAC;
-     
+    --color-beige: #c4a47c;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-brown: #604829;
+    --color-grey : #ACACAC;
+
+    --img-logo          : url("./assets/logo.png");
+    --img-cafeteria     : url("./assets/cafeteria.jpg");
+    --img-parallax-01   : url("./assets/parallax-imagem1.jpg");
+    --img-parallax-02   : url("./assets/parallax-imagem2.jpg");
+    --img-parallax-03   : url("./assets/parallax-imagem3.jpg");
+    --img-parallax-04   : url("./assets/parallax-imagem4.png");
+    --up-arrow          : url("./assets/seta-para-cima.png");
+
 }
 .fixed-pos{
     position: fixed;
