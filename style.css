@@ -1,3 +1,11 @@
+:root{
+    --beige: #c4a47c;
+    --white: #ffffff;
+    --black: #000000;
+    --brown: #604829;
+    --grey : #ACACAC;
+     
+}
 .fixed-pos{
     position: fixed;
 }
