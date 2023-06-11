@@ -14,7 +14,9 @@
     --img-parallax-04   : url("./assets/parallax-imagem4.png");
     --up-arrow          : url("./assets/seta-para-cima.png");
     /*Sizes  */
-        /* percentage */
+        /* top */
+        --logo-width: 256px;
+        --logo-height: 256px;
     --pc-fiftee        : 15%;
     --pc-thirty-five   : 35%;
     --pc-forty-five    : 45%;
@@ -27,6 +29,14 @@
     --px-1024          : 1024px;
 
     --zero             : 0;
+}
+.logo{
+    background-image: var(--img-logo);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: var(--logo-height);
+    width: var(--logo-width);
 }
 .fixed-pos{
     position: fixed;
