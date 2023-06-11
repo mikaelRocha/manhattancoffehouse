@@ -1,10 +1,11 @@
 :root{
+    /* Colors */
     --color-beige: #c4a47c;
     --color-white: #ffffff;
     --color-black: #000000;
     --color-brown: #604829;
     --color-grey : #ACACAC;
-
+    /* Images */
     --img-logo          : url("./assets/logo.png");
     --img-cafeteria     : url("./assets/cafeteria.jpg");
     --img-parallax-01   : url("./assets/parallax-imagem1.jpg");
@@ -12,7 +13,8 @@
     --img-parallax-03   : url("./assets/parallax-imagem3.jpg");
     --img-parallax-04   : url("./assets/parallax-imagem4.png");
     --up-arrow          : url("./assets/seta-para-cima.png");
-
+    /*Sizes  */
+        /* percentage */
     --pc-fiftee        : 15%;
     --pc-thirty-five   : 35%;
     --pc-forty-five    : 45%;
@@ -28,6 +30,12 @@
 }
 .fixed-pos{
     position: fixed;
+}
+.fx-top{
+    top: 0;
+}
+.fx-bot{
+    top: 0;
 }
 .fraunces-font{
     font-family: 'Fraunces', serif;
