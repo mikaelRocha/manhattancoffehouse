@@ -6,17 +6,19 @@
     --color-brown: #604829;
     --color-grey : #ACACAC;
     /* Images */
-    --img-logo          : url("./assets/logo.png");
+    --img-logo          : url("./assets/logo.ico");
     --img-cafeteria     : url("./assets/cafeteria.jpg");
-    --img-parallax-01   : url("./assets/parallax-imagem1.jpg");
+    --img-parallax-01   : url("./assets/parallax-imagem1.png");
     --img-parallax-02   : url("./assets/parallax-imagem2.jpg");
     --img-parallax-03   : url("./assets/parallax-imagem3.jpg");
     --img-parallax-04   : url("./assets/parallax-imagem4.png");
     --up-arrow          : url("./assets/seta-para-cima.png");
     /*Sizes  */
         /* top */
-        --logo-width: 256px;
-        --logo-height: 256px;
+        --logo-width: 56px;
+        --logo-height: 56px;
+
+
     --pc-fiftee        : 15%;
     --pc-thirty-five   : 35%;
     --pc-forty-five    : 45%;
@@ -30,22 +32,10 @@
 
     --zero             : 0;
 }
-.logo{
-    background-image: var(--img-logo);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: var(--logo-height);
-    width: var(--logo-width);
-}
-.fixed-pos{
-    position: fixed;
-}
-.fx-top{
-    top: 0;
-}
-.fx-bot{
-    top: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .fraunces-font{
     font-family: 'Fraunces', serif;
@@ -56,3 +46,56 @@
 .oswald-font{
     font-family: 'oswald', sans-serif;
 }
+
+.header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #604829;
+    width: 100%;
+    right: 0;
+    z-index: 1;
+}
+.logo{
+    position: relative;
+        left: 15%;
+        background-image: var(--img-logo);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: var(--logo-height);
+        width: var(--logo-width);
+    }
+    .links{
+        position: relative;
+        right: var(--pc-fiftee);
+        top: var(--pc-thirty-five);
+        
+    }
+    .links a{
+        color: var(--color-beige);
+        text-decoration: none;
+        margin: 0px 5px;
+        text-shadow: 2px 5px 1px black;
+    }
+.banner
+{
+    position: relative;
+    height: 100vh;
+    background-image: var(--img-parallax-01);
+    background-attachment: fixed;
+    color: var(--color-white)
+}
+    .main-title{
+        position: relative;
+        top:45%;
+        left: 0;
+        right: 0;
+        font-size: 80px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+
+
