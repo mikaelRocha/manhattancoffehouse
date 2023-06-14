@@ -96,17 +96,22 @@
         font-weight: 100;
         text-align: center;
     }
-.info-titles{
-    color: var(--color-beige);
-    font-family: 'oswald', sans-serif; 
+.info-art{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
-.info-titles-h3{
-    color: var(--color-white);
-    font-family: 'oswald', sans-serif; 
-    background-color:  var(--color-brown);
-}
-.text-content{
-    color: var(--color-grey);
-}
+    .info-titles{
+        color: var(--color-beige);
+        font-family: 'oswald', sans-serif; 
+    }
+    .info-titles-h3{
+        color: var(--color-white);
+        font-family: 'oswald', sans-serif; 
+        background-color:  var(--color-brown);
+    }
+    .text-content{
+        color: var(--color-grey);
+    }
 
 
