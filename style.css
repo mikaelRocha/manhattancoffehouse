@@ -100,7 +100,20 @@
 display: flex;
 flex-direction: column;
 align-items: center;
+border:  1px solid black;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 50vh;
+width: 100%;
 }
+    .parallax-01{
+        background-image: var(--img-parallax-02);
+    }
+    .parallax-02{
+        background-image: var(--img-parallax-03);
+    }
     .info-titles{
         color: var(--color-beige);
         font-family: 'oswald', sans-serif; 
