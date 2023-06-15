@@ -132,5 +132,21 @@ width: 100%;
     .text-content{
         color: var(--color-grey);
     }
+.schedules
+{
+    color:white;
+    background-image: var(--img-cafeteria);
+}
+.schedules span, .footer span{
+    color: var(--color-beige)
+}
+.schedules p {
+    color: var(--color-grey);
+}
 
+.up-arrow
+{
+    width: 64px;
+    height: 64px;
+}
 
