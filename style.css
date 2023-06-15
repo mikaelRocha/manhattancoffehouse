@@ -36,6 +36,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .fraunces-font{
     font-family: 'Fraunces', serif;
@@ -100,7 +101,7 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-border:  1px solid black;
+justify-content: center;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -114,7 +115,11 @@ width: 100%;
     .parallax-02{
         background-image: var(--img-parallax-03);
     }
+    .parallax-03{
+        background-image: var(--img-parallax-04);
+    }
     .info-titles{
+       
         color: var(--color-beige);
         font-family: 'oswald', sans-serif; 
     }
@@ -122,6 +127,7 @@ width: 100%;
         color: var(--color-white);
         font-family: 'oswald', sans-serif; 
         background-color:  var(--color-brown);
+        padding: 5px;
     }
     .text-content{
         color: var(--color-grey);
