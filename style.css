@@ -19,7 +19,7 @@
         --logo-height: 56px;
 
 
-    --pc-fiftee        : 15%;
+    --pc-fifteen        : 15%;
     --pc-thirty-five   : 35%;
     --pc-forty-five    : 45%;
     --pc-one-hundred   : 100%;
@@ -70,7 +70,7 @@
     }
     .links{
         position: relative;
-        right: var(--pc-fiftee);
+        right: var(--pc-fifteen);
         top: var(--pc-thirty-five);
         
     }
@@ -102,12 +102,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
+padding: 80px 0px;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 height: 50vh;
 width: 100%;
+}
+.info-art p {
+    max-width: 1024px;
 }
     .parallax-01{
         background-image: var(--img-parallax-02);
@@ -117,6 +122,7 @@ width: 100%;
     }
     .parallax-03{
         background-image: var(--img-parallax-04);
+
     }
     .info-titles{
        
@@ -127,11 +133,49 @@ width: 100%;
         color: var(--color-white);
         font-family: 'oswald', sans-serif; 
         background-color:  var(--color-brown);
-        padding: 5px;
+        text-align:center;
+        width: 500px;
+        padding: 10px;
     }
     .text-content{
         color: var(--color-grey);
     }
+.contact{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact p , .contact h2 {
+    
+    color:white;
+    background-color: var(--color-brown);
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+.contact h2{
+    position:absolute;
+    top:5%;
+}
+.iframe-adress{
+    position:absolute;
+    top:15%;
+    width: 1024px;
+    height: 450px;
+
+}
+.contact .contacts{
+    position:absolute;
+    bottom: 8%;
+}
+.contact h2{
+
+}
 .schedules
 {
     color:white;
