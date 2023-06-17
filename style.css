@@ -178,11 +178,45 @@ width: 100%;
 }
 .schedules
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color:white;
+    height: 85vh;
     background-image: var(--img-cafeteria);
+}
+.schedules h2{
+    padding:50px;
+    font-weight: 100;
+}
+.schedules ul{
+    list-style: none;
+    width: 60%;
+    /* border: 1px solid white; */
+    margin: 50px;
+    line-height: 35px;
+}
+.schedules ul li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.schedules ul li h3{
+    width: 60px;
+    justify-self: flex-start;
 }
 .schedules span, .footer span{
     color: var(--color-beige)
+}
+.schedules span{
+   
+}
+.schedules-list li div{
+    width: 70%;
+    height: 1px;
+    align-self:center ;
+    background-color: #acacac;
 }
 .schedules p {
     color: var(--color-grey);
@@ -200,6 +234,10 @@ width: 100%;
     z-index: 1;
 }
 .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color:white;
     background-color: #000000;
+    padding: 20px;
 }
