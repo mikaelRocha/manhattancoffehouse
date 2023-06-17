@@ -125,7 +125,7 @@ width: 100%;
 
     }
     .info-titles{
-       
+       padding:40px;
         color: var(--color-beige);
         font-family: 'oswald', sans-serif; 
     }
@@ -139,6 +139,7 @@ width: 100%;
     }
     .text-content{
         color: var(--color-grey);
+        line-height: 25px;
     }
 .contact{
     display: flex;
@@ -237,6 +238,7 @@ width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color:white;
     background-color: #000000;
     padding: 20px;
